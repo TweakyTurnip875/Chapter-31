@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+	-fx-font-family: Roboto;
+}
+.top, .dropDown {
+	-fx-background-color: linear-gradient(to top, #d4d4d4, #f5f0f0);
+	-fx-padding: 2px;
+}
+.dropDown:hover {
+	-fx-cursor: hand;
+	-fx-background-color: #c4c4c4;
+}
+.left * {
+	-fx-padding: 4px;
+}
+.right, .left {
+	-fx-padding: 5px 0 0 0;
+}
+.calculateBtn {
+	-fx-padding: 10px;
+}
+.calculateBtn:hover {
+	-fx-cursor: hand;
+	-fx-background-color: #c4c4c4;
+}
